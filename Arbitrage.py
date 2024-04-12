@@ -88,9 +88,9 @@ for i in end_path[1:]:
 print(', tokenB balance=%f'%end_balance)
 
 end_path,end_balance=opt_bfs(graph,'tokenB','tokenB')
-print("opt_path: "+end_path[0],end='')
+print("most profitable path: "+end_path[0],end='')
 
 for i in end_path[1:]:
     print('->'+i,end='')
-print(', opt_tokenB balance=%f'%end_balance)
+print(', tokenB balance=%f'%end_balance)
 
